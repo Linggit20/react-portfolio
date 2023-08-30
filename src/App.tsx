@@ -5,7 +5,9 @@ import Home from "./page"
 
 const App = () => {
   return (
-      <BrowserRouter>
+      <BrowserRouter
+        basename={import.meta.env.DEV ? '/' : '/react-portfolio/'}
+      >
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
