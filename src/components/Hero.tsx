@@ -21,7 +21,7 @@ const Hero = ({scrollToContact}: HeroProps) => {
         <div className="h-[37.5rem] flex md:flex-col items-center lg:flex-row md:space-y-9">
           <div>
             <h1 className="font-bold text-2xl sm:text-3xl text-gray-700 mb-1 md:text-4xl dark:text-gray-200" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out">
-              Hello I"m
+              Hello I'm
               <span className="block text-indigo-500 text-5xl uppercase sm:text-6xl md:text-7xl lg:text-8xl dark:text-primary">
                 Alberto
               </span>
