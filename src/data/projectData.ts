@@ -1,6 +1,5 @@
 import ProjectOne from "../assets/ProjectOne.png"
 import ProjectTwo from "../assets/ProjectTwo.png"
-import ProjectThree from "../assets/ProjectThree.png"
 import ProjectFour from "../assets/ProjectFour.png"
 import ProjectFive from "../assets/ProjectFive.png"
 
@@ -100,45 +99,6 @@ export const projects: ProjectInterface[] = [
       {
         name: "Live",
         link: "https://mini-project-2-pokemon.onrender.com/"
-      }
-  },
-  { 
-    id: 3,
-    duration: "500",
-    easing: 'ease-in-out',
-    right:'fade-right',
-    left: 'fade-left',
-    delay: "100",
-    image: ProjectThree,
-    title: "MindfullTasks", 
-    description: "A full-stack web application to provide user with a platform to create, organize, and track their tasks.",
-    technologies: [
-      {
-        id: 1,
-        name: "Tailwind"
-      },
-      {
-        id: 2,
-        name: "React"
-      },
-      {
-        id: 3,
-        name: "Laravel"
-      },
-      {
-        id: 4,
-        name: "mySQL"
-      },
-    ],
-    github: 
-      { 
-        name: "Github",
-        link: "https://github.com/jantoy052003/Capstone-laravel-api",
-      },
-    live: 
-      {
-        name: "Live",
-        link: "https://mindfull-tasks-app.onrender.com/"
       }
   },
   { 

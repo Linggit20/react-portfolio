@@ -40,7 +40,7 @@ const Experience = () => {
               </div>
               <div className="flex-1 text-right pr-4" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-delay="200">
                 <a href={certificate} target="_blank" className="mb-1 dark:text-gray-300">KodeGo Bootcamp</a>
-                <p className="text-[12px] text-indigo-500  dark:text-primary">Current</p>
+                <p className="text-[12px] text-indigo-500  dark:text-primary">2023</p>
               </div>
             </li>
             <li className="flex flex-row-reverse h-32 relative before:flex-1">
